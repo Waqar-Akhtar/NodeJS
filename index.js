@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
 app.get("/hello", (req, res) => {
   res.send("Hello Ec2  Instance");
 });
-const PORT = 8080;
+const PORT = 80;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
